@@ -1,8 +1,5 @@
 FROM centos
-MAINTAINER Sander <mail@sandervanvugt.nl>
-
-# Add repo file
-ADD ./sander.repo /etc/yum.repos.d/
+MAINTAINER Nhat Tran <nhatt416@gmail.com>
 
 # Install cool software
 RUN yum --assumeyes update && \
