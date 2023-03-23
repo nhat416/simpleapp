@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER Nhat Tran <nhatt416@gmail.com>
+MAINTAINER Nhat Tran <dev@nhat.work>
 
 # Install cool software
 RUN yum --assumeyes update && \
